@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAE E-commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="MS.css">
+</head>
+<body>
+    <div class="container">
+    <div class="navbar">
+        <a href="#"><h2>SAE</h2></a>
+        <nav>
+            <ul>
+                <li><a href="#">MEN</a></li>
+                <li><a href="#">WOMEN</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <form action="">
+                <input type="text" class="search-bar" placeholder="search for product, brand and  more....." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <div class="icons">
+        <i class="fa fa-shopping-cart"></i>
+        <i class="fa fa-heart"></i>
+        </div>
+    </div>
+</div>
+<div class="small-container">
+    <a href="#"><div class="filter-icon">
+        <i class="fa fa-filter"></i>
+        <span>Filter</span>
+    </div></a>
+    <h3>MEN</h3>
+
+
+</div>
+    
+</body>
+</html>
+
+<!-- css -->
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppin' , sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    z-index: 4;
+ 
+
+}
+.navbar h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-style: normal;
+    color: #037AE9;
+    margin-left: 103px;
+}
+nav{
+    flex: 1;
+    text-align: left;
+    margin-left: 104px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: inline-block;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 60px;
+    font-size: 24px;
+    font-style: normal;
+    
+}
+nav ul li a{
+    color: black;
+}
+.navbar .search-container{
+    margin-right: 20px;
+    /* margin-left: 48px; */
+}
+.search-container input[type=text]{
+    width: 420px;
+    height: 34px;
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+}
+.search-container button{
+    padding: 6px 10px;
+    
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.search-container button:hover{
+    background: #ccc;;
+}
+.icons{
+    margin-right: 103px;
+    
+}
+.fa-shopping-cart{
+    font-size: 36px;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.fa-heart{
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.container{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+    background: #ECECFF;
+    height: 80px;
+    box-shadow: 0px -8px 24px ;
+    z-index: 4;
+
+}
+.small-container{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    /* background-color: #F1F1F1; */
+    z-index: -2;
+}
+.small-container a{
+    color: black;
+}
+.filter-icon{
+    margin-left: 103px;
+    padding: 20px;
+    font-size: 24px;
+}
+.small-container h3{
+    font-size: 36px;
+    font-style: normal;
+    /* display: inline-block; */
+    text-align: center;
+    
+}
